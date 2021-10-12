@@ -1,0 +1,18 @@
+operator	label	line_number	resource	thread	operator_time	step_start_time	step_end_time
+cognitive_processor	verity <програма>	1	cognitive	base	70	0	70
+look	<ярлик>	2	see	base	550	70	620
+point	<ярлик>	3	hands	base	950	620	1570
+click	<ярлик>	4	hands	base	320	1570	1890
+cognitive_processor	<opening the program>	5	cognitive	base	70	1890	1960
+look	<settings>	6	see	base	550	1960	2510
+point	<settings>	7	hands	base	950	2510	3460
+click	<settings>	8	hands	base	320	3460	3780
+cognitive_processor	<opening settings>	9	cognitive	base	70	3780	3850
+look	<name field>	10	see	base	550	3850	4400
+point	<name field>	11	hands	base	950	4400	5350
+click	<name field>	12	hands	base	320	5350	5670
+hands		13	hands	base	450	5670	6120
+write	"нова назва помічника"	14	hands	base	6000	6120	12120
+look	<change name>	15	see	base	550	12120	12670
+point	<change name>	16	hands	base	950	12670	13620
+click		17	hands	base	320	13620	13940

@@ -1,0 +1,17 @@
+operator	label	line_number	resource	thread	operator_time	step_start_time	step_end_time
+cognitive_processor	verity <програма>	1	cognitive	base	70	0	70
+look	<ярлик>	2	see	base	550	70	620
+point	<ярлик>	3	hands	base	950	620	1570
+click	<ярлик>	4	hands	base	320	1570	1890
+cognitive_processor	verity <write standart command>	5	cognitive	base	70	1890	1960
+look	<command field>	6	see	base	550	1960	2510
+point	<command field>	7	hands	base	950	2510	3460
+click	<command field>	8	hands	base	320	3460	3780
+cognitive_processor	verity <введення певної команди>	9	cognitive	base	70	3780	3850
+hands		10	hands	base	450	3850	4300
+write	"команда"	11	hands	base	2000	4300	6300
+hands		12	hands	base	450	6300	6750
+cognitive_processor	verity <start>	13	cognitive	base	70	6750	6820
+look	<start command>	14	see	base	550	6820	7370
+point	<start command>	15	hands	base	950	7370	8320
+click	<start command>	16	hands	base	320	8320	8640
